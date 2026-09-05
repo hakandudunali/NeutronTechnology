@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: ekomatik-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-ekomatik}
+      POSTGRES_USER: ${POSTGRES_USER:-ekomatik}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-ekomatik}
+    ports:
+      - "5432:5432"
+    volumes:
+      - ekomatik_pgdata:/var/lib/postgresql/data
+
+volumes:
+  ekomatik_pgdata:

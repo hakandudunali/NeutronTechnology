@@ -1,0 +1,8 @@
+pyserial>=3.5
+requests>=2.31.0
+opencv-python>=4.9.0
+
+# Picamera2 Raspberry Pi CSI kamerası için opsiyoneldir ve pip ile değil,
+# Raspberry Pi OS üzerinde apt ile kurulur:
+#   sudo apt install python3-picamera2
+# Bulunamazsa edge_agent.py otomatik olarak OpenCV VideoCapture'a düşer.
