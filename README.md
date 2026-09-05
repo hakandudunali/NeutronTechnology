@@ -1,4 +1,4 @@
-# 🚬 EkoMatik
+#  EkoMatik
 
 **EkoMatik**, atık sigara izmaritlerinin kontrollü şekilde toplanmasını, görüntü üzerinden kontrol edilmesini, tartılmasını ve kullanıcıların topladıkları atık karşılığında puan kazanmasını amaçlayan IoT tabanlı akıllı geri dönüşüm sistemidir.
 
