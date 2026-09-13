@@ -45,7 +45,7 @@ Deneyap Kart ◄── Internet ──► Backend
 5. Sonuç Deneyap Kart'a iletilir.
 6. Kabul edilen atık için mekanizma ve tartım süreci çalıştırılır.
 7. Loadcell + HX711 ile ağırlık ölçülür.
-8. Mevcut prototipte puan hesabı `gram × 1,4` katsayısı ile yapılır.
+8. Mevcut prototipte puan hesabı `gram × 6` katsayısı ile yapılır.
 9. İşlem güvenli şekilde backend'e aktarılır ve kullanıcı bakiyesine işlenir.
 10. Kullanıcı bakiyesini mobil uygulama üzerinden görüntüleyebilir.
 
